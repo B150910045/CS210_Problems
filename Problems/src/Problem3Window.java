@@ -66,6 +66,12 @@ public class Problem3Window {
 		textArea.setBounds(10, 140, 160, 40);
 		frame.getContentPane().add(textArea);
 		
+		JTextArea Bodlogo_oguulber = new JTextArea();
+		Bodlogo_oguulber.setBounds(10, 190, 800, 100);
+		frame.getContentPane().add(Bodlogo_oguulber);
+		Bodlogo_oguulber.setText("RGB7237 - Арифметик дундаж\r\n"
+				+ "Өгөгдсөн бодит тоон дарааллын арифметик дунджийг ол.");
+		
 		JButton button = new JButton("Arithmetic Dundaj Oloh");
 		button.setBounds(10, 55, 160, 40);
 		frame.getContentPane().add(button);

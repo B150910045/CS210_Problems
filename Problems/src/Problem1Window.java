@@ -65,6 +65,13 @@ public class Problem1Window {
 		textArea.setBounds(10, 140, 160, 40);
 		frame.getContentPane().add(textArea);
 		
+		JTextArea Bodlogo_oguulber = new JTextArea();
+		Bodlogo_oguulber.setBounds(10, 190, 160, 100);
+		frame.getContentPane().add(Bodlogo_oguulber);
+		Bodlogo_oguulber.setText("\r\n"
+				+ "RGB7209 - a тооны n зэрэг\r\n"
+				+ "Өгөгдсөн тооны n зэргийг ол.");
+		
 		JButton button = new JButton("Zereg Oloh");
 		button.setBounds(10, 55, 160, 40);
 		frame.getContentPane().add(button);

@@ -65,6 +65,13 @@ public class Problem4Window {
 		textArea.setBounds(10, 140, 160, 40);
 		frame.getContentPane().add(textArea);
 		
+		JTextArea Bodlogo_oguulber = new JTextArea();
+		Bodlogo_oguulber.setBounds(10, 190, 800, 100);
+		frame.getContentPane().add(Bodlogo_oguulber);
+		Bodlogo_oguulber.setText("RGB7519 - Өсөх эсэх\r\n"
+				+ "Өгөгдсөн нэг хэмжээст массив өсөхөөр эрэмбэлэгдсэн бол \n"
+				+ "true үгүй бол false гэж хэвлэ.");
+		
 		JButton add_btn = new JButton("Usuh Eseh");
 		add_btn.setBounds(10, 55, 160, 40);
 		frame.getContentPane().add(add_btn);

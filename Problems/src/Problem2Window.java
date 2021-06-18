@@ -65,6 +65,13 @@ public class Problem2Window {
 		textArea.setBounds(10, 140, 160, 40);
 		frame.getContentPane().add(textArea);
 		
+		JTextArea Bodlogo_oguulber = new JTextArea();
+		Bodlogo_oguulber.setBounds(10, 190, 800, 100);
+		frame.getContentPane().add(Bodlogo_oguulber);
+		Bodlogo_oguulber.setText("\r\n"
+				+ "RGB7034 - 2 тооны дундаж\r\n"
+				+ "Өгөгдсөн 2 бодит  эерэг тооны арифметик болон геометр дунджийг ол");
+		
 		JButton button = new JButton("Dundaj Oloh");
 		button.setBounds(10, 55, 160, 40);
 		frame.getContentPane().add(button);
