@@ -78,5 +78,4 @@ public class Problem5Window {
 			}
 		});
 	}
-
 }
