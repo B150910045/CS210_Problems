@@ -2,7 +2,7 @@ package Week2;
 
 import java.util.Scanner;
 
-public class Problem19 {
+public class Problem20 {
 	public static boolean sondgoi(int[] too, int hemjee) {
 		int count = 0;
 		for(int i = 0; i <hemjee; i++) {
