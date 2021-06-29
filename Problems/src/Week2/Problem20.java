@@ -3,32 +3,27 @@ package Week2;
 import java.util.Scanner;
 
 public class Problem20 {
-	public static boolean sondgoi(int[] too, int hemjee) {
-		int count = 0;
-		for(int i = 0; i <hemjee; i++) {
-			if(too[i] % 2 == 1)
-				count++;
+	public static void function(int too) {
+		int temp = too;
+		for(int i = 0; i < too; i++) {
+			for(int j = 0; j < temp; j++) {
+				System.out.print(too - j + " ");
+			}
+			System.out.print("\n");
+			temp--;
 		}
-		return ((hemjee / 2) < count);
 	}
 	
 	public static void main(String[] args) {
-		int[] too;
-		int hemjee;
+		int too;
 		Scanner scn = new Scanner(System.in);
 
 		System.out.println("\r\n"
-				+ "RGB7503 - Сондгой нь их үү\r\n"
-				+ "Нэг хэмжээст массив дахь сондгой тоонууд нь \n"
-				+ " тэгш тоонуудаасаа их бол YES, үгүй \n"
-				+ "бол NO гэж хэвлэ.");
+				+ "RGB7405 - Давхар давталт 5\r\n"
+				+ "Өгөгдсөн тоон тусламтайгаар жишээн дээрхтэй төстэй тоон хэлбэрийг үүсгэ.");
 
-		hemjee = scn.nextInt();
-		too = new int [hemjee];
-		for(int i = 0; i < hemjee; i++) {
-			too[i] = scn.nextInt();
-		}
+		too = scn.nextInt();
 		scn.close();
-		System.out.println(sondgoi(too, hemjee));
+		function(too);
 	}
 }
